@@ -14,3 +14,14 @@ someinternalhost_IP = 10.132.0.3
 #	ForwardAgent yes
 #	IdentityFile ~/.ssh/appuser
 #	ProxyJump 104.199.14.201
+
+
+#Д.З.4
+testapp_IP = 104.199.47.143
+testapp_port = 9292
+
+
+#Д.З.5 - (Сборка образов VM при помощи Packer)
+#ubuntu16.json - шаблон, variables.json.example - переменные.
+
+
