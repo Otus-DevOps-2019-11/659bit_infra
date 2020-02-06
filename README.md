@@ -24,4 +24,11 @@ testapp_port = 9292
 #Д.З.5 - (Сборка образов VM при помощи Packer)
 #ubuntu16.json - шаблон, variables.json.example - переменные.
 
-
+#Д.З.6 Знакомство с Terraform
+#Добавил файлы:
+#files/deploy.sh - скрипт установки
+#files/puma.service - unit puma
+#main.tf - основной файл terraform
+#outputs.tf - файл выходных переменных
+#terraform.tfvars.example - файл пременных
+#variables.tf - файл объявления пременных
