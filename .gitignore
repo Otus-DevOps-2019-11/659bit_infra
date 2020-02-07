@@ -1,0 +1,7 @@
+.github/PULL_REQUEST_TEMPLATE.md
+.pre-commit-config.yaml
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
