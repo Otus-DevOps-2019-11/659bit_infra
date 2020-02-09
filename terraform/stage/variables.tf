@@ -6,10 +6,6 @@ variable region {
   # Значение по умолчанию
   default = "europe-west1-b"
 }
-variable private_key_path {
-  # Описание переменной
-  description = "Azaza"
-}
 variable public_key_path {
   # Описание переменной
   description = "Path to the public key used for ssh access"
@@ -20,6 +16,9 @@ variable disk_image {
 variable zone {
   description = "zone"
   default     = "europe-west1-b"
+}
+variable private_key {
+  description = "private_key"
 }
 
 variable db_disk_image {
